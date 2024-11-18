@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <a class="logo" href="index.html"><img class="logo__img" src="img/logo.jpeg" alt="logo"></a>
+                <nav class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="login.html" class="nav__link">Регистрация</a></li>
+                    <li class="nav__item"><a href="account.html" class="nav__link">Личный кабинет</a></li>
+                    <li class="nav__item nav__basket"><a href="basket.html" class="nav__link basket__link">Корзина</a><span>0</span></li>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main-main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Сокровищница: Ищите. Находите. Вдохновляйтесь.</h1>
+                    <h2 class="hero__text">Присоединяйтесь к нашей барахолке, чтобы найти удивительные вещи, которые станут новой жемчужиной вашей коллекции!</h2>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2 class="subtitle">О нас</h2>
+                <div class="about__content">
+                    <div class="about__block">
+                        <h3 class="about__text">Свяжитесь с нами и мы ответим  на все ваши вопросы!</h3>
+                        <form class="about__form" action="server.php" method="post">
+                            <label class="label" for="name">Ваше ФИО:</label>
+                            <input id="name" name="tel" class="input" type="text" placeholder="ФИО">
+                            <label class="label" for="tel">Ваш телефон:</label>
+                            <input  id="tel" name="tel" class="input" type="text" placeholder="+7 922 434 44 21">
+                            <button class="about__btn input" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/torgovo_yarmarochny_kompleks_moskva/1065617412/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Торгово-ярмарочный комплекс Москва</a><a href="https://yandex.ru/maps/213/moscow/category/shopping_mall/184108083/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Торговый центр в Москве</a><iframe class="aaa" src="https://yandex.ru/map-widget/v1/?ll=37.779693%2C55.673907&mode=search&oid=1065617412&ol=biz&sctx=ZAAAAAgBEAAaKAoSCZ5eKcsQz0JAEdOgaB7A4EtAEhIJA137Anqh8j8RmPxP%2Fu4d7D8iBgABAgMEBSgKOABAAUgBYjtyZWxldl9yYW5raW5nX2hlYXZ5X3JlbGV2X3NlcnBfZm9ybXVsYT0wLjYwOmwzX2RjMzQ2NTc2X2V4cGI7cmVsZXZfcmFua2luZ19oZWF2eV9yZWxldl9tYXBzX2Zvcm11bGE9MC42MDpsM19kYzM0NjU3Nl9leHBiKXJlbGV2X2lycmVsX2ZpbHRlcj0xLjA6aXJyZWxfZGMzMjg0MDRfZXhwYjVyZWFycj1zY2hlbWVfTG9jYWwvR2VvL1Bvc3RmaWx0ZXIvSXJyZWxUaHJlc2hvbGQ9MC40NWoCcnWdAc3MTD2gAQCoAQC9Ael2m0XCAQWEkJD8A%2BoBAPIBAPgBAIICBtGC0Y%2FQuooCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=37.779693%2C55.673907&source=serp_navig&sspn=0.030813%2C0.009834&text=%D1%82%D1%8F%D0%BA&z=16" width="560" height="560" frameborder="1" border: none !important; allowfullscreen="true" style="position:relative;"></iframe></div>
+                </div>
+            </div>
+        </section>
+        <section class="pay">
+            <div class="container">
+                <h2 class="subtitle">Удобые способы оплаты</h2>
+                <p class="pay__text">На барахолке платежи могут осуществляться различными способами, в зависимости от предпочтений продавца и платформы. Некоторые из распространенных способов оплаты на барахолке включают:</p>
+                <ul class="pay__list">
+                    <li class="pay_item"><img class="mony" src="img/mony.png" alt=""><p class="pay__el">Наличные</p></li>
+                    <li class="pay_item"><img class="mony" src="img/card2.png" alt=""><p class="pay__el">Онлайн-платежные системы</p></li>
+                    <li class="pay_item"><img class="mony" src="img/card.png" alt=""><p class="pay__el">Банковский перевод</p></li>
+                    <li class="pay_item"><img class="mony" src="img/crypto.jpg" alt=""><p class="pay__el">Криптовалюты</p></li>
+                    <li class="pay_item pay__down"><p class="pay__el pay__down-text">Наличные кассиру</p></li>
+                    <li class="pay_item pay__down"><p class="pay__el pay__down-text">Список всех систем</p></li>
+                    <li class="pay_item pay__down"><p class="pay__el pay__down-text">Привязать карту</p></li>
+                    <li class="pay_item pay__down"><p class="pay__el pay__down-text">Привязать кошелек</p></li> 
+                </ul>
+            </div>
+        </section>
+        <section class="product">
+            <div class="container">
+                <h2 class="subtitle">Товары</h2>
+                
+                <div class="wrapper__list">
+                    <h3 class="product__titel">Пуховики</h3>
+                    <ul class="a__list">
+                        <li class="a__item">
+                            <a href="cart.html">
+                                <img class="img__product" src="img/pux1.jpg" alt="">
+                            </a>
+                          
+                            
+                            <div class="a__block">
+                                <p class="a__name">Красное Господство</p>
+                                <span class="a__price">1800 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                       
+                        <li class="a__item">
+                            <a href="cart.html">
+                                <img class="img__product" src="img/pux2.jpg" alt="">
+
+                            </a>
+                            
+                            <div class="a__block">
+                                <p class="a__name">Пуховик-Укрывашка</p>
+                                <span class="a__price">1400 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart.html">
+                                <img class="img__product" src="img/pux3.jpg" alt="">
+
+                            </a>
+                            
+                            <div class="a__block">
+                                <p class="a__name">Пуховик-Укрывашка 2.0</p>
+                                <span class="a__price">1500 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart.html">
+                                <img class="img__product" src="img/pux4.jpg" alt="">
+
+                            </a>
+                            
+                            <div class="a__block">
+                                <p class="a__name">Пуховик-Пальто из гуся </p>
+                                <span class="a__price">1300 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart.html">
+                                <img class="img__product" src="img/pux5.jpg" alt="">
+                            </a>
+                            
+                            
+                            <div class="a__block">
+                                <p class="a__name">Розовое вино</p>
+                                <span class="a__price">1700 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart.html">
+                                <img class="img__product" src="img/pux6.jpg" alt="">
+                            </a>
+                           
+                            
+                            <div class="a__block">
+                                <p class="a__name">Синий глянец</p>
+                                <span class="a__price">1449 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart.html">
+                                <img class="img__product" src="img/pux7.jpg" alt="">
+                            </a>
+                         
+                            
+                            <div class="a__block">
+                                <p class="a__name">Страж</p>
+                                <span class="a__price">999 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart.html">
+                                <img class="img__product" src="img/pux8.jpg" alt="">
+                            </a>
+                          
+                            
+                            <div class="a__block">
+                                <p class="a__name">Королева гор</p>
+                                <span class="a__price">3200 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                           
+                        </li>
+                    </ul>
+                </div>
+                <div class="wrapper__list">
+                    <h3 class="product__titel">Кросовки</h3>
+                    <ul class="a__list">
+                        <li class="a__item">
+                            <a href="cart2.html">
+                                <img class="img__product" src="img/cross.jpg" alt="">
+                            </a>
+                          
+                            
+                            <div class="a__block">
+                                <p class="a__name">У-угольники </p>
+                                <span class="a__price">1900 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart2.html">
+                                <img class="img__product" src="img/cross2.jpg" alt="">
+                            </a>
+                         
+                            
+                            <div class="a__block">
+                                <p class="a__name">КиттиКет(kitty cat)</p>
+                                <span class="a__price">1400 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart2.html">
+                                <img class="img__product" src="img/cross3.jpg" alt="">
+                            </a>
+                          
+                            
+                            <div class="a__block">
+                                <p class="a__name">Промежуточный Ветер</p>
+                                <span class="a__price">1390 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart2.html">
+                                <img class="img__product" src="img/cross4.jpg" alt="">
+                            </a>
+                         
+                            
+                            <div class="a__block">
+                                <p class="a__name">Промежуточный ветер Nike Детский</p>
+                                <span class="a__price">790 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart2.html">
+                                <img class="img__product" src="img/cross5.jpg" alt="">
+                            </a>
+                           
+                            
+                            <div class="a__block">
+                                <p class="a__name">Красный Карп</p>
+                                <span class="a__price">1550 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart2.html">
+                                <img class="img__product" src="img/cross6.jpg" alt="">
+                            </a>
+                           
+                            
+                            <div class="a__block">
+                                <p class="a__name">МодестПинк-Грейрат</p>
+                                <span class="a__price">1400 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart2.html">
+                                <img class="img__product" src="img/cross7.jpg" alt="">
+                            </a>
+                           
+                            
+                            <div class="a__block">
+                                <p class="a__name">Яд Цербера</p>
+                                <span class="a__price">1200 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                        <li class="a__item">
+                            <a href="cart2.html">
+                                <img class="img__product" src="img/cross8.jpg" alt="">
+                            </a>
+                        
+                            
+                            <div class="a__block">
+                                <p class="a__name">ФинМакФил stile</p>
+                                <span class="a__price">1499 р.</span>
+                            </div>
+                            <button class="a__btn">Купить</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+       
+        <section class="feedback">
+            <div class="container">
+                <h2 class="subtitle">Отзывы</h2>
+                <div class="feedback__content">
+                     <div class="feedback__block">
+                        <div class="feedback__item">
+                            <img class="feedback__art" src="img/men1.jpg" alt="">
+                            <h4 class="feedback__name">Иван Жуков</h4>
+                        </div>
+                        <p class="feedback__text">Отличный сервис, удобный поиск и большой выбор товаров! Рекомендую всем!</p>
+                     </div>
+                     <div class="feedback__block">
+                        <div class="feedback__item">
+                            <img class="feedback__art" src="img/men2.jpg" alt="">
+                            <h4 class="feedback__name">Дарья Мушкина</h4>
+                        </div>
+                        <p class="feedback__text">Я очень довольна качеством товаров и ценами на вашей барахолке. Буду покупать здесь еще!</p>
+                     </div>
+                     <div class="feedback__block">
+                        <div class="feedback__item">
+                            <img class="feedback__art" src="img/men3.jpg" alt="">
+                            <h4 class="feedback__name">Мария Куликова</h4>
+                        </div>
+                        <p class="feedback__text">Спасибо за возможность продать ненужные вещи и найти интересные находки по доступным ценам. Обязательно вернусь!</p>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="FAQ">
+            <div class="container">
+                <h2 class="subtitle">Часто задаваемые вопросы</h2>
+                <div class="FAQ__container">
+                   
+                    <div class="FAQ__content">
+                        <div class="FAQ__block">
+                            <div class="FAQ__text">
+                                <h3 class="FAQ__sub-title">Возможно ли вернуть товар, если он не соответствует описанию или имеет дефекты?
+                                    <p class="FAQ__article">
+                                    Перед возвратом обязательно будет проверка товара на дефекты и его дееспособность.
+                                    </p>
+                                </h3>
+                             
+                            </div>
+                            
+                            <button id="FAQ__plus"></button>
+                            
+                            
+                        </div>
+                        <div class="FAQ__block">
+                            <div class="FAQ__text">
+                                <h3 class="FAQ__sub-title">Предоставляете ли вы гарантию на продаваемые товары?
+                                    <p class="FAQ__article">
+                                        Да, конечно. Гарантия один год.
+                                    </p>
+                                </h3>
+                               
+                            </div>
+                            
+                            <button id="FAQ__plus"></button>
+                            
+                            
+                        </div>
+                        <div class="FAQ__block">
+                            <div class="FAQ__text">
+                                <h3 class="FAQ__sub-title">Как я могу связаться с продавцом перед покупкой товара?
+                                    <p class="FAQ__article">
+                                        Оставив заявку на сайте. 
+                                        
+                                    </p>
+                                </h3>
+                                
+                            </div>
+                            
+                            <button id="FAQ__plus"></button>
+                            
+                            
+                        </div>
+                        <div class="FAQ__block">
+                            <div class="FAQ__text">
+                                <h3 class="FAQ__sub-title">Какие условия доставки товаров предусмотрены на вашем сайте?
+                                    <p class="FAQ__article">
+                                        Замечательные условия.
+                                    </p>
+                                </h3>
+        
+                            </div>
+                            
+                            <button id="FAQ__plus"></button>
+                            
+                            
+                        </div>
+                        <div class="FAQ__block">
+                            <div class="FAQ__text">
+                                <h3 class="FAQ__sub-title">Работаем ли по выходным?
+                                    <p class="FAQ__article">
+                                       Мы работаем ежедневно без выходных.
+                                    </p>
+                                </h3>
+        
+                            </div>
+                            
+                            <button id="FAQ__plus"></button>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__block">
+                    <p class="footer__logo-text">Мы стремимся создать пространство, где каждый найдет что-то для себя. Присоединяйтесь к нам и окунитесь в мир удивительных находок и выгодных сделок</p>
+                </div>
+                <div class="footer__block">
+                    <nav class="nav__list nav__footer-block">
+                        <li class="nav__item footer__item"><a href="index.html" class="nav__link nav__footer">Главная</a></li>
+                        <li class="nav__item footer__item"><a href="about.html" class="nav__link nav__footer">О нас</a></li>
+                        <li class="nav__item footer__item"><a href="login.html" class="nav__link nav__footer">Регистрация</a></li>
+                        <li class="nav__item footer__item"><a href="account.html" class="nav__link nav__footer">Личный кобинет</a></li>
+                        <li class="nav__item footer__item"><a href="basket.html" class="nav__link nav__footer">Корзина</a></li>
+                    </nav>
+                </div>
+          
+                <div class="footer__block last__block">
+                    <h3 class="footer__title">Подписывайтесь на наши соцсети</h3>
+                    <div class="footer__media">
+                        <a class="footer__link" href=""><img class="footer__img" src="img/vk.png" alt=""></a>
+                        <a class="footer__link" href=""><img class="footer__img" src="img/telegram.png" alt=""></a>
+                        <a class="footer__link" href=""><img class="footer__img" src="img/twitter.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
